@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@keyframes roundedMovingShadow {
+  0% {
+    box-shadow: 0 0 5px rgba(11, 127, 171, 0.3),
+                0 0 10px rgba(255, 0, 0, 0.2),
+                0 0 15px rgba(0, 255, 0, 0.2);
+  }
+  50% {
+    box-shadow: 5px 5px 10px rgba(11, 127, 171, 0.3),
+                -5px -5px 10px rgba(255, 0, 0, 0.2),
+                0 0 15px rgba(0, 255, 0, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(11, 127, 171, 0.3),
+                0 0 10px rgba(255, 0, 0, 0.2),
+                0 0 15px rgba(0, 255, 0, 0.2);
+  }
+}
+
+.moving-shadow {
+  animation: roundedMovingShadow 4s ease-in-out infinite;
+ 
+}
