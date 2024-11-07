@@ -9,6 +9,10 @@ import ProductPage from './pages/ProductPage'
 import ProductDetial from './pages/ProductDetial'
 import Cart from './pages/Cart'
 import Register from './pages/Register'
+import ComD from './context/ComD'
+import Show from './context/Show'
+
+import CartItems from './redux/CartItems'
 
 const Myroute = () => {
   return (
@@ -27,7 +31,9 @@ const Myroute = () => {
             <Route path='productdetail/:productId' element={<ProductDetial/>}/>
             <Route path='cart' element={<Cart/>} />
             <Route path='register' element={<Register/>}/> 
-
+            <Route path='context' element={<Show/>}/>
+            <Route path='redux/cart' element={<CartItems/>}/>
+            
           </Route>
 
         </Routes>

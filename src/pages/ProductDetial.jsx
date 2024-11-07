@@ -42,7 +42,7 @@ const ProductDetial = () => {
   return (
     <>
      <Helmet>
-        <title>Product Detail</title>
+        <title>Estore|Product Detail</title>
         <meta name="description" content="Helmet application" />
     </Helmet>
     <ToastContainer theme='colored' position='top-center'/>

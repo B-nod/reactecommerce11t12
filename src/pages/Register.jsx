@@ -8,7 +8,7 @@ const Register = () => {
   return (
     <>
  <Helmet>
-        <title>Register</title>
+        <title>Estore|Register</title>
         <meta name="description" content="Helmet application" />
     </Helmet>
      <h1 className='text-center font-bold text-3xl my-5'>Registration Form</h1>
